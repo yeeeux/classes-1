@@ -11,7 +11,7 @@ class Car():
         self.cnt_of_srart_engine = 0
     
     def desc(self):
-        description = "Car name: " + self.carName + '\n' + "max speed: " + str(self.maxSpeed) + ', число запусков двигателя: ' + str(self.cnt_of_srart_engine)
+        description = "Car name: " + self.carName + '\n' + "max speed: " + str(self.maxSpeed) + '\n' + 'число запусков двигателя: ' + str(self.cnt_of_srart_engine)
         return description
 
     def engine_start(self):
@@ -51,6 +51,7 @@ class Ford(Car):
         super().__init__(carName, maxSpeed)
 
 ford = Ford('Ford', 200)
+print(ford.desc())
 ford.engine_start()
 ford.engine_stop()
 ford.acceleration()
