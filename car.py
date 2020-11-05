@@ -40,7 +40,7 @@ class Car():
         if self.run_status == 1:
             print('Останавливаемся')
         else:
-            print('Мы и так стоим')
+            print('Мы и так стоим вообще то')
 
 class Toyota(Car):
     def __init__(self, carName, maxSpeed):
