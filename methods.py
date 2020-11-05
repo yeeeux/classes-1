@@ -1,5 +1,5 @@
 def acceleration(self):
-    print('Завёлся')
+    pass
 
 def stop(self):
     pass
